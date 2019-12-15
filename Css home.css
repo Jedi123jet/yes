@@ -9,12 +9,15 @@ font-family:Yu Gothic;
 
 .intrest{
 color:#000000;
-font-size:50px;
+font-size:100px;
 font-family:Yu Gothic;
-padding-top:50px;
-
+padding-top:300px;
+padding-right:500px;
 }
 
+.fonter{
+	font-family:Yu Gothic;
+}
 
 
 .marquee{
@@ -62,7 +65,61 @@ HEIGHT:200px;
 width:250px;
 position: absolute;
     top: -20px;
-    left: -50px;
+    left: -40px;
+  
+}
+
+.pic1{
+HEIGHT:500px; 
+width:550px;
+position: absolute;
+    top: -130px;
+    right: 250px;
+  
+}
+
+.pic2{
+HEIGHT:500px; 
+width:550px;
+position: absolute;
+    top: -130px;
+    right: 335px;
+  
+}
+
+.pic3{
+HEIGHT:500px; 
+width:550px;
+position: absolute;
+    top: -165px;
+    right: 35px;
+  
+}
+
+.pic4{
+HEIGHT:500px; 
+width:550px;
+position: absolute;
+    top: -125px;
+    right: -200px;
+  
+}
+
+.pic5{
+HEIGHT:350px; 
+width:400px;
+position: absolute;
+    top: 225px;
+    right: 200px;
+  
+}
+
+.pic6{
+HEIGHT:350px; 
+width:400px;
+position: relative;
+    top: 10px;
+    right: 10px;
   
 }
 
@@ -123,10 +180,21 @@ text-align:center;
 .menu li:hover li a:hover{background:#009933;}
 
 
+
 .center {
     margin: auto;
 	width: 58%;
     padding: 10px;
 }
+html { overflow-x: hidden; }
 
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 
+a {
+   z-index:3;
+}
