@@ -1,6 +1,7 @@
-# hthfinal
+# HTH final "FEEL"
 
-A new Flutter application.
+Our app, feel, operates by recording a clip of speech and then analyzing it using the sentiment API. The app then assigns the value returned by the API to one of three basic emotions (positive, neutral, negative) and returns the result to the user in the form of an emoticon. The reason that there are only three emotions is to keep it as simple as possible for the user. Feel also incorporates the Facial Recognition API, by capturing an image of a person’s face and using the sentiment API to analyze it. The data is assigned and returned to the user in the same way as the speech operation mentioned above. 
+
 
 ## Getting Started
 
