@@ -15,7 +15,7 @@ padding-top:300px;
 padding-right:500px;
 }
 
-.fonter{
+.fonts{
 	font-family:Yu Gothic;
 }
 
@@ -54,7 +54,7 @@ font-size:50px;
 .unique3{
 color:#000000;
 font-size:40px;
-font-family:Courier New;
+font-family:Yu Gothic;
 
 }
 
@@ -66,6 +66,7 @@ width:250px;
 position: absolute;
     top: -20px;
     left: -40px;
+	z-index: 1;
   
 }
 
@@ -75,6 +76,7 @@ width:550px;
 position: absolute;
     top: -130px;
     right: 250px;
+	z-index: 1;
   
 }
 
@@ -84,6 +86,7 @@ width:550px;
 position: absolute;
     top: -130px;
     right: 335px;
+	z-index: 1;
   
 }
 
@@ -91,8 +94,10 @@ position: absolute;
 HEIGHT:500px; 
 width:550px;
 position: absolute;
-    top: -165px;
-    right: 35px;
+    top: -120px;
+    right: 20px;
+	z-index: 1;
+	
   
 }
 
@@ -100,8 +105,9 @@ position: absolute;
 HEIGHT:500px; 
 width:550px;
 position: absolute;
-    top: -125px;
-    right: -200px;
+    top: -160px;
+    right: -160px;
+	z-index: 1;
   
 }
 
@@ -111,6 +117,7 @@ width:400px;
 position: absolute;
     top: 225px;
     right: 200px;
+	z-index: -1;
   
 }
 
@@ -119,7 +126,56 @@ HEIGHT:350px;
 width:400px;
 position: relative;
     top: 10px;
-    right: 10px;
+    right: 30px;
+	z-index: -1;
+  
+}
+
+.pic6A{
+HEIGHT:350px; 
+width:400px;
+position: relative;
+    top: 10px;
+    right: 5px;
+	z-index: -1;
+  
+}
+
+.pic6B{
+HEIGHT:350px; 
+width:400px;
+position: relative;
+    top: 10px;
+    left: 20px;
+	z-index: -1;
+  
+}
+
+.pic6C{
+HEIGHT:350px; 
+width:400px;
+position: relative;
+    top: 10px;
+    left: 70px;
+	z-index: -1;
+  
+}
+
+.pic6D{
+HEIGHT:350px; 
+width:400px;
+position: relative;
+    top: 10px;
+    left: -1000px;
+	z-index: -1;
+  
+}
+
+.pic7{
+HEIGHT:525px; 
+width:575px;
+position: relative;
+   bottom:40px;
   
 }
 
@@ -135,7 +191,9 @@ body{
 background-color:#dfd0c6;
 
 }
-
+header{
+	background: #white;
+}
 .menu li
 {
 list-style:none;
@@ -189,6 +247,7 @@ text-align:center;
 html { overflow-x: hidden; }
 
 .navbar {
+	background: #dfd0c6;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -197,4 +256,34 @@ html { overflow-x: hidden; }
 
 a {
    z-index:3;
+}
+
+.shift{
+	float: right;
+	position: relative;
+	z-index: -1;
+}
+
+.shiftx{
+	float: right;
+	position: relative;
+	left:500px;
+	z-index: -1;
+	
+}
+
+.shifty{
+	float: right;
+	position: relative;
+	bottom:80px;
+	right:150px
+
+}
+
+.shiftText{
+	float:right;
+	position:relative;
+	bottom: 57px;
+	left: 550px;
+	z-index: -1;
 }
