@@ -1,0 +1,132 @@
+.bar{
+color:#dfd0c6;
+font-size:40px;
+font-family:Yu Gothic;
+
+}
+
+
+
+.intrest{
+color:#000000;
+font-size:50px;
+font-family:Yu Gothic;
+padding-top:50px;
+
+}
+
+
+
+.marquee{
+color:#000000;
+font-family:Yu Gothic;
+padding-top:50px;
+}
+
+.correct{
+animation:scroll;
+direction:left;
+	
+}
+
+
+.unique1{
+color:#ff0000;
+font-family:Yu Gothic;
+text-decoration: underline;
+font-size:40px;
+}
+
+
+
+.unique2{
+color:#000000;
+font-family:Yu Gothic;
+font-size:50px;
+}
+
+
+
+
+.unique3{
+color:#000000;
+font-size:40px;
+font-family:Courier New;
+
+}
+
+
+
+.pic{
+HEIGHT:200px; 
+width:250px;
+position: absolute;
+    top: -20px;
+    left: -50px;
+  
+}
+
+#copy{
+text-align:right;
+font-style:italic;
+width:100
+
+}
+
+
+body{
+background-color:#dfd0c6;
+
+}
+
+.menu li
+{
+list-style:none;
+position:relative;
+margin:0px;
+padding:0px;
+float:left;
+}
+
+
+.menu ul
+{
+display:none;
+position:absolute;
+margin:0px;
+padding:0px;
+}
+
+
+
+.menu li:hover > ul
+{
+display:block;
+
+}
+
+
+.menu li a
+{
+display:block;
+background:#dfd0c6;
+padding:6px 20px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+width:165px;
+text-transform:uppercase;
+text-align:center;
+}
+
+
+.menu li:hover li a:hover{background:#009933;}
+
+
+.center {
+    margin: auto;
+	width: 58%;
+    padding: 10px;
+}
+
+
